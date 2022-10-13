@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.privacy__content {
+  margin-top: 20px;
+}
+
+.privacy__title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+  color: lightgray;
+}
+
+.privacy__text {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+  color: lightgray;
+  margin: 10px;
+}

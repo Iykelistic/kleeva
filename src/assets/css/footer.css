@@ -4,79 +4,81 @@
   box-sizing: border-box;
 }
 
-.footer__container {
-  margin-top: 40px;
-}
+@media screen and (max-width: 768px) {
+  .footer__container {
+    margin-top: 40px;
+  }
 
-.footer__content {
-  width: 90%;
-  padding: 37px;
-  background: cyan;
-  border-radius: 15px;
-  margin: 0 auto;
-  position: relative;
-}
+  .footer__content {
+    width: 90%;
+    padding: 37px;
+    background: cyan;
+    border-radius: 15px;
+    margin: 0 auto;
+    position: relative;
+  }
 
-.footer__logo {
-  display: flex;
-  justify-content: space-around;
-  position: relative;
-}
+  .footer__logo {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+  }
 
-.footer__logo__img_i {
-  width: 12%;
-  object-fit: contain;
-  position: absolute;
-  left: -11px;
-  top: -13px;
-}
+  .footer__logo__img_i {
+    width: 12%;
+    object-fit: contain;
+    position: absolute;
+    left: -11px;
+    top: -13px;
+  }
 
-.footer__logo__img_ii {
-  width: 12%;
-  object-fit: contain;
-  position: absolute;
-  top: -26px;
-}
+  .footer__logo__img_ii {
+    width: 12%;
+    object-fit: contain;
+    position: absolute;
+    top: -26px;
+  }
 
-.footer__logo__img_iii {
-  width: 12%;
-  object-fit: contain;
-  position: absolute;
-  top: -17px;
-  right: -11px;
-}
+  .footer__logo__img_iii {
+    width: 12%;
+    object-fit: contain;
+    position: absolute;
+    top: -17px;
+    right: -11px;
+  }
 
-.footer__hr {
-  width: 45%;
-  background: #fff;
-  position: absolute;
-  top: 63px;
-  left: 100px;
-}
+  .footer__hr {
+    width: 45%;
+    background: #fff;
+    position: absolute;
+    top: 63px;
+    left: 100px;
+  }
 
-.footer__icons {
-  margin-top: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .footer__icons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.footer__icon_i {
-  color: #fff;
-  position: absolute;
-  left: 103px;
-  top: 77px;
-}
+  .footer__icon_i {
+    color: #fff;
+    position: absolute;
+    left: 103px;
+    top: 77px;
+  }
 
-.footer__icon__i {
-  color: #fff;
-  position: absolute;
-  top: 77px;
-}
+  .footer__icon__i {
+    color: #fff;
+    position: absolute;
+    top: 77px;
+  }
 
-.footer__icon___i {
-  color: #fff;
-  position: absolute;
-  right: 103px;
-  top: 77px;
+  .footer__icon___i {
+    color: #fff;
+    position: absolute;
+    right: 103px;
+    top: 77px;
+  }
 }

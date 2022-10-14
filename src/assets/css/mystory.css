@@ -4,72 +4,74 @@
   box-sizing: border-box;
 }
 
-.mystory__content {
-  position: relative;
-  background: lightgray;
-  height: 110vh;
-  width: 100%;
-  z-index: 1;
-  opacity: 0.5;
-}
+@media screen and (max-width: 768px) {
+  .mystory__content {
+    position: relative;
+    background: lightgray;
+    height: 110vh;
+    width: 100%;
+    z-index: 1;
+    opacity: 0.5;
+  }
 
-.mystory__header {
-  object-fit: cover;
-  width: 100%;
-  height: 115px;
-  z-index: 2;
-  position: relative;
-}
+  .mystory__header {
+    object-fit: cover;
+    width: 100%;
+    height: 115px;
+    z-index: 2;
+    position: relative;
+  }
 
-.mystory__header__text {
-  position: absolute;
-  top: 1%;
-  left: 6%;
-  z-index: 3;
-}
+  .mystory__header__text {
+    position: absolute;
+    top: 1%;
+    left: 6%;
+    z-index: 3;
+  }
 
-.mystory__context__img {
-  object-fit: cover;
-  width: 60%;
-  height: 243px;
-  border-radius: 10px;
-  z-index: 3;
-  position: absolute;
-  top: 99px;
-  left: 79px;
-}
+  .mystory__context__img {
+    object-fit: cover;
+    width: 60%;
+    height: 243px;
+    border-radius: 10px;
+    z-index: 3;
+    position: absolute;
+    top: 99px;
+    left: 79px;
+  }
 
-.mystory__text__container {
-  position: absolute;
-  top: 42%;
-  left: 58px;
-  margin-top: 20px;
-}
+  .mystory__text__container {
+    position: absolute;
+    top: 42%;
+    left: 58px;
+    margin-top: 20px;
+  }
 
-.mystory__text {
-  color: lightgray;
-  font-size: 1.2rem;
-  margin-left: -44px;
-}
+  .mystory__text {
+    color: lightgray;
+    font-size: 1.2rem;
+    margin-left: -44px;
+  }
 
-.mystory__text__content {
-  color: lightgray;
-  font-size: 1.2rem;
-  margin-left: -44px;
-  margin-top: 10px;
-}
+  .mystory__text__content {
+    color: lightgray;
+    font-size: 1.2rem;
+    margin-left: -44px;
+    margin-top: 10px;
+  }
 
-.mystory__video__container {
-  position: absolute;
-  top: 70%;
-  background: black;
-  object-fit: contain;
-  z-index: 3;
-  margin-left: 5px;
-}
+  .mystory__video__container {
+    position: absolute;
+    top: 70%;
+    background: black;
+    object-fit: contain;
+    z-index: 3;
+    margin-left: 5px;
+  }
 
-.mystory__footer {
-  position: absolute;
-  top: 110%;
-  z-index: 3;
+  .mystory__footer {
+    position: absolute;
+    top: 110%;
+    z-index: 3;
+  }
 }
